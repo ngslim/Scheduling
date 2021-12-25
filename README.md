@@ -3,7 +3,7 @@
 A program that calculates the Scheduling chart, TT and WT for each process in 4 ways of process scheduling: First Come First Serve, Round Robin, Shortest Job First and Priority Queue.
 The input file name is "input.txt"
 The first row is the number of processes and quantum time. The following rows are the processes in format: name, arrival time, time burst and priority.
-*Example input:*
+</br>*Example input:*</br>
 ```
 3 4
 P1 0 24 3
@@ -11,7 +11,7 @@ P2 1 5 2
 P3 2 3 1
 ```
 Output files are named by the abbreviations of schedualing strategies: "FCFS.txt", "RR.txt", "SJF.txt", "Priority.txt".
-*Example output for the above input:*
+</br>*Example output for the above input:*</br>
 FCFS.txt
 ```
 Scheduling chart: 0~P1~24~P2~29~P3~32
